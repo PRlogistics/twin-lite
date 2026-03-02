@@ -10,3 +10,11 @@ gtts==2.5.1
 requests
 pillow
 numpy
+
+# Text-to-Speech
+gtts==2.5.1
+
+# Common dependencies that might be missing
+requests
+pillow
+numpy
