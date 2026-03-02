@@ -2,3 +2,11 @@
 uvicorn
 pydantic==2.5.3
 pydantic-core==2.14.6
+
+# Text-to-Speech
+gtts==2.5.1
+
+# Common dependencies that might be missing
+requests
+pillow
+numpy
