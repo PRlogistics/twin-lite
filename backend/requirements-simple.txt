@@ -1,0 +1,9 @@
+﻿fastapi
+uvicorn[standard]
+python-multipart
+elevenlabs
+openai
+pydantic
+python-jose[cryptography]
+passlib[bcrypt]
+aiofiles

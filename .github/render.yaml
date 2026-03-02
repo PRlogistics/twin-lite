@@ -1,0 +1,21 @@
+# Exported from Render on 2026-02-27T23:07:53Z
+version: "1"
+projects:
+- name: My project
+  environments:
+  - name: Production
+    services:
+    - type: web
+      name: Enhanced-Twin-ai-server-
+      runtime: python
+      repo: https://github.com/PRlogistics/Enhanced-Twin-ai-server-
+      plan: free
+      envVars:
+      - key: ELEVENLABS_API_KEY
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      region: singapore
+      buildCommand: ' pip install -r requirements.txt '
+      startCommand: ' uvicorn app.main:app --host 0.0.0.0 --port $PORT'
+      autoDeployTrigger: commit

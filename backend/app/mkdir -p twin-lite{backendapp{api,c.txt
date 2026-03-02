@@ -1,0 +1,3 @@
+mkdir -p twin-lite/{backend/app/{api,core,models,services},frontend/src/{components,pages,hooks,stores},docs,docker,.github/workflows}
+cd twin-lite
+git init
